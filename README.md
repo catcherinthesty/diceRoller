@@ -1,4 +1,5 @@
-                      PHP Dice Roller
+PHP Dice Roller
+---------------
 
 What is it?
 -----------
@@ -31,14 +32,23 @@ this is a cosmetic distinction.
 Examples
 --------
 The following test cases work perfectly:
+
 d		rolls a single d6
+
 1b		rolls a single d6; roll an additional die on a result of 6
+
 x6		rolls a single d6; roll it again and add the result on a 6
+
 1d4+1		rolls a d4 and adds 1
+
 1-1d4		subtract from 1 the roll of a d4
+
 2d6+2d4*2	rolls two d6 and adds the result to 2d4; multiply by 2
+
 4dF+2		rolls 4 FUDGE dice (-1,0,1) and adds 2
+
 1d%		rolls a single 100 sided dice
+
 4+d+2d8-d11/2	add to 4 the roll of a d6, 2d8, a d11 and divide the total by 2
 
 Licensing
